@@ -8,8 +8,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features="src/test/java/features",
 		glue="StepDefinations",
-		tags = {"@runThis", "not @Ignore"},
-		format={"json:target/Destination/cucumber.json"})
+		tags = {"@runThis", "not @Ignore"}
+		)
 
 public class TestRunner {
 

@@ -1,13 +1,11 @@
 package StepDefinations;
 
-import org.junit.runner.RunWith;
 import org.testng.Assert;
 
 import PageObjects.HomePage;
 import PageObjects.Slider;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import cucumber.api.junit.Cucumber;
 
 public class HomePageSteps extends Step {
 	HomePage hp = new HomePage(driver);

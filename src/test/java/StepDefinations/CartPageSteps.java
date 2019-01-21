@@ -1,13 +1,10 @@
 package StepDefinations;
 
-import org.junit.runner.RunWith;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 import PageObjects.CartPage;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import cucumber.api.junit.Cucumber;
 
 public class CartPageSteps extends Step {
 	CartPage cp;

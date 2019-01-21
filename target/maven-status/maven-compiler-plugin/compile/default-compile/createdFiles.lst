@@ -1,4 +1,7 @@
+PageObjects\Slider.class
 PageObjects\HomePage.class
-PageObjects\WomenlinkPage.class
-PageObjects\CommonBase.class
 online_shopping\E_commerce\App.class
+PageObjects\WomenTabPage.class
+PageObjects\CartPage.class
+PageObjects\Page.class
+PageObjects\SigninPage.class
