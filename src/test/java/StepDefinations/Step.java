@@ -9,6 +9,9 @@ import org.junit.After;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+
 public class Step {
 	public static WebDriver driver;
 	public Properties prop;
@@ -28,9 +31,9 @@ public class Step {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver;
 	}
-	
-	@After
+
 	public void cleanup() {
 		driver.close();
 	}
+
 }

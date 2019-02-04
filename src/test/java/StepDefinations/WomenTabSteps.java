@@ -205,13 +205,9 @@ public class WomenTabSteps extends Step {
 		Assert.assertEquals(wp.verifyAddToWishlist(), "You must be logged in to manage your wishlist.");
 	}
 
-	/*
-	 * @AfterTest @Override public void cleanup() { driver.close(); }
-	 */
-
-	@After()
-	public void cleanup() {
-		driver.close();
-
+	@Then("^User close the browser$")
+	public void close_browser() throws Throwable {
+		super.cleanup();
 	}
+
 }
